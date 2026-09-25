@@ -39,3 +39,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# notas de trabalho e estado local de agentes (nao versionar)
+/docs/DESIGN-AUDIT.md
+.claude/project-state.md
+.claude/launch.json
+.claude/settings*.json
+.claude/worktrees/
+.superpowers/
