@@ -171,7 +171,11 @@ export default function Footer() {
 
       <div className="relative border-t border-white/5 py-6">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-6 text-xs text-white/35 sm:flex-row lg:px-10">
-          <p>© {new Date().getFullYear()} {SITE.name} — feito com volume no talo.</p>
+          <p>
+            © {new Date().getFullYear()} {SITE.name} — feito com volume no talo. Projeto
+            conceitual de fã, sem fins comerciais e sem afiliação com artistas, gravadoras ou
+            festivais citados.
+          </p>
           <p>
             Next.js · Framer Motion · Imagens: Unsplash ·{" "}
             <a
